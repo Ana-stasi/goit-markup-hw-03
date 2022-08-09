@@ -132,8 +132,8 @@ body{
 
 .contact-nav .link:hover,
 .contact-nav .link:focus,
-.footer .contact-link:hover,
-.footer .contact-link:focus{
+.footer .contacts .link:hover,
+.footer .contacts .link:focus{
     color: var(--accent-color);
 }
 
@@ -308,7 +308,7 @@ background-color: var(--portfolio-button-color);
     line-height: 1.71;
 }
 
-.contact-link{
+.contacts .link{
     color: var(--footer-link-color);
     font-style: normal;
     font-size: 14px;
@@ -316,7 +316,7 @@ background-color: var(--portfolio-button-color);
     text-decoration: none;
 }
 
-.contact-link:not(:last-child){
+.contacts .item:not(:last-child){
     margin-bottom: 9px;
 }
 
