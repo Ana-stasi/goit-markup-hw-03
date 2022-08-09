@@ -23,7 +23,6 @@ box-sizing: border-box;
 }
 
 body{
-    background-color: var(--background-color);
     color: var(--primary-text-color);
 
     font-family: 'Roboto', sans-serif;
@@ -148,8 +147,10 @@ body{
 }
 
 .hero-title{
-    margin-top: 0;
+    width: 696px;
+    margin: 0 auto;
     margin-bottom: 30px;
+
 
     color: var(--white-color);
     font-weight: 900;
@@ -326,7 +327,7 @@ background-color: var(--portfolio-button-color);
 .work-categories{
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .work-categories .item:not(:last-child){
@@ -334,6 +335,7 @@ background-color: var(--portfolio-button-color);
 }
 
 .work-categories .button{
+    padding: 6px 22px;
     border-color:var(--portfolio-button-color);
     border-radius: 4px;
     
@@ -375,16 +377,16 @@ background-color: var(--portfolio-button-color);
     margin-bottom: 30px;
 }
 
-.work-example .image{
-    margin-bottom: 20px;
+.work-description{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .work-example .title{
-    margin-top: 0;
-    margin-bottom: 4px;
-    margin-left: 24px;
-    margin-right: 24px;
-   
+    margin: 0;
+
     color: var(--title-color);
     font-weight: 700;
     font-size: 18px;
@@ -393,10 +395,7 @@ background-color: var(--portfolio-button-color);
 }
 
 .work-example .text{
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: 0;
 
     font-size: 16px;
     line-height: 1.88;
